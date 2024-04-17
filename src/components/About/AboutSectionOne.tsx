@@ -18,14 +18,16 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="lg:pt-22 pt-10 md:pt-12">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Empowering Healthcare Through Technology"
+                paragraph="Healthvalors Technologies is an offshore software development company located in Ahmedabad, Gujarat, India. Since our launch in 2003, we have enjoyed continuous year on year growth and have successfully partnered with renowned organizations to deliver real results on time and on budget. The company in last more than 10 years has delivered many potential, viable and scalable solutions to many trusted clients across India."
+                paragraph1=""
+                paragraph2=""
                 mb="44px"
               />
 
@@ -34,16 +36,20 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
+                  <h2 className="mb-4 text-center text-xl font-bold !leading-tight text-black dark:text-white sm:text-xl md:text-[20px]">
+                    Our company has been providing different types of software
+                    services{" "}
+                  </h2>
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="HMIS" />
+                    <List text=" Healthcare IT Solutions" />
+                    <List text="Telemedicine solutions" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Rural Health" />
+                    <List text="other maintenance services etc." />
+                    {/* <List text="" /> */}
                   </div>
                 </div>
               </div>
@@ -64,6 +70,53 @@ const AboutSectionOne = () => {
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
+            </div>
+          </div>
+        </div>
+        {/*  */}
+
+        <div className="-mx-4 flex flex-wrap items-center">
+          <div className="w-full px-4 lg:w-1/2">
+            <SectionTitle
+              title=""
+              paragraph="Our area of expertise lies specifically in the HMIS. We are trusted provider of solutions to the Hospital Sector; As a Hospital/Doctor your top priority to deliver high quality patient care never changes. You need an IT partner who understands your issues and proposes solutions that support the business side of healthcare. That partner is Healthvalors Technology."
+              paragraph1="The solutions we offer can improve the performance and stability of your workforce, resulting in measurable improvement in the quality of patient care, as well as tangible financial benefits.
+              Our clients are confident that we will deliver on our promises every time, which is why many of our clients choose Healthvalors Technology as their preferred partner for all of their software requirements."
+              paragraph2="We giving our clients the assurance that all our products and services are delivered at the highest level. Through our low cost, high quality and reliable offshore software services, we serve our clients giving them value for money and thus client satisfaction."
+              mb="44px"
+            />
+
+            {/* <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
+              <div className="mx-[-12px] flex flex-wrap">
+                <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                  <List text="Premium quality" />
+                  <List text="Tailwind CSS" />
+                  <List text="Use for lifetime" />
+                </div>
+
+                <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                  <List text="Next.js" />
+                  <List text="Rich documentation" />
+                  <List text="Developer friendly" />
+                </div>
+              </div>
+            </div> */}
+          </div>
+
+          <div className="w-full px-4 lg:w-1/2">
+            <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+              <Image
+                src="/images/about/about-image.svg"
+                alt="about-image"
+                fill
+                className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+              />
+              <Image
+                src="/images/about/about-image-dark.svg"
+                alt="about-image"
+                fill
+                className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+              />
             </div>
           </div>
         </div>

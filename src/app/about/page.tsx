@@ -1,7 +1,10 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import Brands from "@/components/Brands";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-
+import FAQ from "@/components/Faq";
+import Team from "@/components/About/Team";
+import TechnicalSkill from "@/components/About/TechnicalSkill";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,10 +18,14 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Transforming Healthcare Delivery With Innovative Solutions"
       />
       <AboutSectionOne />
       <AboutSectionTwo />
+      <Team />
+      <TechnicalSkill />
+      <Brands title="Testomonial" />
+      {/* <FAQ /> */}
     </>
   );
 };

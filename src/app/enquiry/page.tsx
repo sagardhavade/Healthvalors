@@ -1,5 +1,5 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
+import Enquiry from "@/components/Enquiry";
 
 import { Metadata } from "next";
 
@@ -13,11 +13,11 @@ const ContactPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Contact"
+        pageName="Enquiry"
         description="Please fill the inquiry form and we will contact you shortly. Please write in detail about your requirements & query. It will help us assist you quickly and efficiently."
       />
 
-      <Contact />
+      <Enquiry />
     </>
   );
 };

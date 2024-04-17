@@ -12,7 +12,7 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                Contact Form
+                Enquiry Form
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
                 Our team will get back to you ASAP via email.
@@ -49,7 +49,21 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="name"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Company Name
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Enter Company Name"
+                        className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                      />
+                    </div>
+                  </div>
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
                       <label
@@ -65,7 +79,21 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="name"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        City
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Enter City "
+                        className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                      />
+                    </div>
+                  </div>
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
                       <label
@@ -81,14 +109,43 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="name"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Type of Organization
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Enter Type of Organization "
+                        className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="phone"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Phone
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Enter your Phone "
+                        className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                      />
+                    </div>
+                  </div>
                   <div className="w-full px-4">
                     <div className="mb-8">
                       <label
                         htmlFor="message"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Message
+                        Requirement
                       </label>
                       <textarea
                         name="message"
