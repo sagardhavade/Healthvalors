@@ -90,6 +90,12 @@ const menuData: Menu[] = [
         path: "/error",
         newTab: false,
       },
+      {
+        id: 49,
+        title: "HIMS",
+        path: "/hims",
+        newTab: false,
+      },
     ],
   },
 ];
