@@ -19,7 +19,7 @@ const Hims = () => {
     <>
       <Breadcrumb
         pageName="HIMS Page"
-        description="Transforming Healthcare Delivery With Innovative Solutions"
+        description="Comprehensive HMIS Solutions for Modern Healthcare Facilities. Streamline Operations, Improve Patient Care, and Enhance Efficiency with Healthvalors Technologies."
       />
       <section className="py-16 md:py-20 lg:py-28">
         <div className="container">

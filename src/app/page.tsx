@@ -10,10 +10,11 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
-
+import Technologies from "@/components/Technologies";
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Healthvalors Technologies - Innovative Solutions for Healthcare",
+  description:
+    "Transforming Healthcare Delivery with Innovative Solutions from Healthvalors Technologies",
   // other metadata
 };
 
@@ -25,6 +26,7 @@ export default function Home() {
       <Features />
       <Video />
       <Brands title="" />
+      <Technologies />
       {/* <AboutSectionOne /> */}
       {/* <AboutSectionTwo /> */}
       {/* <Testimonials /> */}

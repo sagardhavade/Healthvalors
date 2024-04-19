@@ -12,14 +12,15 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    // src="/images/logo/logo-2.svg"
+                    src="/images/logo/Hlogo.svg"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/HBlogo.svg"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
@@ -27,8 +28,8 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Your Gateway to Healthcare Innovation, Delivering Reliable
+                  Solutions Since 2003.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -112,31 +113,39 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Products
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/hims"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      HMIS
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/homecare"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Homecare Solutions
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/telemedicine"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Telemedicine Solutions
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/ruralHealth"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Rural Health
                     </Link>
                   </li>
                 </ul>
@@ -146,7 +155,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Useful Link
                 </h2>
                 <ul>
                   <li>
@@ -154,7 +163,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Terms & Conditions
                     </Link>
                   </li>
                   <li>
@@ -173,6 +182,14 @@ const Footer = () => {
                       Refund Policy
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Disclaimer
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -188,23 +205,23 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      (+91) 93 279 54454
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      href="mailto:marketing@healthvalors.com/"
+                      className="mb-4 inline-block text-base text-primary duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
+                      marketing@healthvalors.com
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Contact
                     </Link>
                   </li>
                 </ul>
@@ -215,23 +232,23 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
+              Copyright © 2024{" "}
               <a
-                href="http://uideck.com"
+                href="https://www.triocorporation.in"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-primary"
+                className=" hover:text-primary"
+                style={{ color: "#e86320" }}
               >
-                UIdeck
+                TRIO Corporation
               </a>{" "}
-              and{" "}
               <a
-                href="https://nextjstemplates.com"
+                href="https://www.triocorporation.in"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                Next.js Templates
+                All rights reserved.
               </a>
             </p>
           </div>

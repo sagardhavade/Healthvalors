@@ -13,6 +13,8 @@ const Pricing = () => {
         <SectionTitle
           title="Simple and Affordable Pricing"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph1=""
+          paragraph2=""
           center
           width="665px"
         />
