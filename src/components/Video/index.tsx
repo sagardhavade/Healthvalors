@@ -15,6 +15,8 @@ const Video = () => {
         <SectionTitle
           title="We are ready to help"
           paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph1=""
+          paragraph2=""
           center
           mb="80px"
         />
