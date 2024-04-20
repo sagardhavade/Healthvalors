@@ -7,11 +7,50 @@ const menuData: Menu[] = [
     path: "/",
     newTab: false,
   },
+  // {
+  //   id: 2,
+  //   title: "About",
+  //   path: "/about",
+  //   newTab: false,
+  //   submenu: [
+  //     {
+  //       id: 21,
+  //       title: "Infrastructure",
+  //       path: "/infrastructure",
+  //       newTab: false,
+  //     },
+  //     {
+  //       id: 22,
+  //       title: "Gallery",
+  //       path: "/gallery",
+  //       newTab: false,
+  //     },
+  //   ],
+  // },
   {
     id: 2,
-    title: "About",
-    path: "/about",
+    title: "Profile",
     newTab: false,
+    submenu: [
+      {
+        id: 20,
+        title: "About",
+        path: "/about",
+        newTab: false,
+      },
+      {
+        id: 21,
+        title: "Infrastructure",
+        path: "/infrastructure",
+        newTab: false,
+      },
+      {
+        id: 22,
+        title: "Gallery",
+        path: "/gallery",
+        newTab: false,
+      },
+    ],
   },
   {
     id: 4,
