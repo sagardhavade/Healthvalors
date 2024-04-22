@@ -3,12 +3,22 @@
 import SectionTitle from "../Common/SectionTitle";
 import PricingBox from "../Technologies/Technologies";
 import OfferList from "../Pricing/OfferList";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Tech = () => {
   const isMonthly = "";
 
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  });
   return (
-    <section id="tech" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section
+      id="tech"
+      className="relative z-10 py-16 md:py-20 lg:py-28"
+      data-aos="fade-up"
+    >
       <div className="container">
         <SectionTitle
           title="TECHNOLOGIES"
@@ -19,7 +29,10 @@ const Tech = () => {
           width="665px"
           mb="0px"
         ></SectionTitle>
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        <div
+          className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3"
+          data-aos="fade-up"
+        >
           <PricingBox
             icon={
               <svg

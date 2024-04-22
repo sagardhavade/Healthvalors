@@ -1,5 +1,7 @@
+"use client";
+import React from "react";
 import Link from "next/link";
-
+import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <>
@@ -12,7 +14,22 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Transforming Healthcare with Technology
+                  {/* Transforming Healthcare with Technology */}
+                  <TypeAnimation
+                    sequence={[
+                      // Same substring at the start will only be typed out once, initially
+                      "Transforming Healthcare with Technology is vital for modernization.",
+                      1000, // wait 1s before replacing "Mice" with "Hamsters"
+                      "Transforming Healthcare with Technology enhances patient care.",
+                      1000,
+                      "Transforming Healthcare with Technology revolutionizes medical practices.",
+                      1000,
+                    ]}
+                    wrapper="span"
+                    speed={10}
+                    style={{ fontSize: "1.875rem", display: "inline-block" }}
+                    repeat={Infinity}
+                  />
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   Since 2003, Healthvalors Technologies has been a leading

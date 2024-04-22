@@ -60,7 +60,7 @@ const GridGalleryCard: React.FC<GridGalleryCardProps> = ({
       }`}
     >
       <div className="absolute inset-0 z-10 flex transition duration-200 ease-in hover:opacity-0">
-        <div className="absolute inset-0 bg-black opacity-70"></div>
+        <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="z-10 mx-auto self-center text-sm uppercase tracking-widest text-white">
           {/* Hello World */}
         </div>

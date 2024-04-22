@@ -1,8 +1,18 @@
+"use client";
 import NewsLatterBox from "./NewsLatterBox";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  });
   return (
-    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
+    <section
+      id="contact"
+      className="overflow-hidden py-16 md:py-20 lg:py-28"
+      data-aos="fade-up"
+    >
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">

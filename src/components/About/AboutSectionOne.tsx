@@ -1,5 +1,9 @@
+"use client";
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -8,6 +12,9 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200 });
+  });
   const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
@@ -18,7 +25,7 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="lg:pt-22 pt-10 md:pt-12">
+    <section id="about" className="lg:pt-22 pt-10 md:pt-12" data-aos="fade-up">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
@@ -56,7 +63,10 @@ const AboutSectionOne = () => {
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+              <div
+                className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0 "
+                data-aos="fade-right"
+              >
                 <Image
                   src="/images/about/about-image.svg"
                   alt="about-image"
@@ -75,7 +85,7 @@ const AboutSectionOne = () => {
         </div>
         {/*  */}
 
-        <div className="-mx-4 flex flex-wrap items-center">
+        <div className="-mx-4 flex flex-wrap items-center" data-aos="fade-up">
           <div className="w-full px-4 lg:w-1/2">
             <SectionTitle
               title=""
@@ -85,34 +95,21 @@ const AboutSectionOne = () => {
               paragraph2="We giving our clients the assurance that all our products and services are delivered at the highest level. Through our low cost, high quality and reliable offshore software services, we serve our clients giving them value for money and thus client satisfaction."
               mb="44px"
             />
-
-            {/* <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
-              <div className="mx-[-12px] flex flex-wrap">
-                <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                  <List text="Premium quality" />
-                  <List text="Tailwind CSS" />
-                  <List text="Use for lifetime" />
-                </div>
-
-                <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                  <List text="Next.js" />
-                  <List text="Rich documentation" />
-                  <List text="Developer friendly" />
-                </div>
-              </div>
-            </div> */}
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
-            <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+            <div
+              className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+              data-aos="fade-right"
+            >
               <Image
-                src="/images/about/about-image.svg"
+                src="/images/about/7.png"
                 alt="about-image"
                 fill
                 className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
               />
               <Image
-                src="/images/about/about-image-dark.svg"
+                src="/images/about/6.png"
                 alt="about-image"
                 fill
                 className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"

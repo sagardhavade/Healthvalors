@@ -1,16 +1,18 @@
 "use client";
-
 import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
-
 import ModalVideo from "react-modal-video";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <section className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section
+      className="relative z-10 py-16 md:py-20 lg:py-28"
+      data-aos="fade-up"
+    >
       <div className="container">
         <SectionTitle
           title="We are ready to help"
@@ -21,7 +23,7 @@ const Video = () => {
           mb="80px"
         />
 
-        <div className="-mx-4 flex flex-wrap">
+        <div className="-mx-4 flex flex-wrap" data-aos="fade-up">
           <div className="w-full px-4">
             <div
               className="mx-auto max-w-[770px] overflow-hidden rounded-md"
