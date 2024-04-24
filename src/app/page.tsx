@@ -11,6 +11,7 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 import Technologies from "@/components/Technologies";
+import Slider from "@/components/Slider";
 export const metadata: Metadata = {
   title: "Healthvalors Technologies - Innovative Solutions for Healthcare",
   description:
@@ -22,7 +23,8 @@ export default function Home() {
   return (
     <>
       <ScrollUp />
-      <Hero />
+      {/* <Hero /> */}
+      <Slider />
       <Features />
       <Video />
       <Brands title="Our Clients" />
