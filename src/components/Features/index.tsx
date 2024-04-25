@@ -14,7 +14,8 @@ const Features = () => {
     <>
       <section
         id="features"
-        className="py-16 md:py-20 lg:py-28"
+        // className="py-16 md:py-20 lg:py-28"
+        className="py-16 md:py-20 lg:py-10"
         data-aos="fade-up"
       >
         <div className="container">
