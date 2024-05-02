@@ -16,7 +16,6 @@ const Features = () => {
         id="features"
         // className="py-16 md:py-20 lg:py-28"
         className="py-16 md:py-20 lg:py-10"
-        data-aos="fade-up"
       >
         <div className="container">
           <SectionTitle
@@ -25,6 +24,7 @@ const Features = () => {
             paragraph1=""
             paragraph2=""
             center
+            mb="-70px"
           />
 
           <div
