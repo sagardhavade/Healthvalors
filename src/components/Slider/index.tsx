@@ -59,8 +59,10 @@ const Slider = () => {
           <SwiperSlide className="relative">
             <div className="absolute left-1/4 top-1/2 max-w-lg -translate-x-1/2 -translate-y-1/2 transform rounded-md p-8 text-white ">
               {/* <div className="title mb-4 text-3xl font-bold">Slide 1</div> */}
-              <h3 className=" mb-2 text-xl font-semibold">Empowering HIMS</h3>
-              <h3 className="mb-1 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+              <h3 className=" mb-2 hidden text-xl font-semibold md:block lg:block">
+                Empowering HIMS
+              </h3>
+              <h3 className=" lg:blockmd:leading-tight mb-1 hidden text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:block md:text-5xl">
                 {/* Transforming Healthcare with Technology */}
                 <TypeAnimation
                   sequence={[
@@ -92,14 +94,14 @@ const Slider = () => {
                   nec. Nulla laoreet justo vitae porttitor porttitor.
                 </p>
               </div> */}
-              <p className="text-lg text-white">
+              <p className="hidden text-lg text-white md:block lg:block">
                 Revolutionizing healthcare management. Our software solutions
                 streamline processes, enhance patient care, and optimize
                 efficiency.
               </p>
               <div>
                 <button
-                  className="mt-4 rounded bg-[#43d5cb] px-4 py-2 text-gray-200 hover:bg-blue-700"
+                  className="mt-4 hidden rounded bg-[#43d5cb] px-4 py-2 text-gray-200 hover:bg-blue-700 md:block lg:block"
                   onClick={handleClick}
                 >
                   Learn More
@@ -117,21 +119,21 @@ const Slider = () => {
           <SwiperSlide className="relative">
             <div className="absolute left-1/4 top-1/2 max-w-lg -translate-x-1/2 -translate-y-1/2 transform rounded-md p-8 text-white ">
               {/* <div className="title mb-4 text-3xl font-bold">Slide 1</div> */}
-              <h3 className=" mb-2 text-xl font-semibold">
+              <h3 className=" mb-2 hidden text-xl font-semibold md:block lg:block">
                 Advanced HIMS Technology
               </h3>
-              <h2 className="mb-4 text-3xl font-bold">
+              <h2 className="mb-4 hidden font-bold md:block lg:block lg:text-3xl">
                 {" "}
                 Innovative Solutions for Healthcare Providers
               </h2>
 
-              <p className="text-lg text-white">
+              <p className="hidden text-lg text-white md:block lg:block">
                 Maximize efficiency with our HIMS technology. Intuitive
                 interfaces and robust features keep you ahead in healthcare.
               </p>
               <div>
                 <button
-                  className="mt-4 rounded bg-[#43d5cb] px-4 py-2 text-gray-200 hover:bg-blue-700"
+                  className="mt-4 hidden rounded bg-[#43d5cb] px-4 py-2 text-gray-200 hover:bg-blue-700 md:block lg:block"
                   onClick={handleClick1}
                 >
                   Learn More
@@ -149,22 +151,22 @@ const Slider = () => {
           <SwiperSlide className="relative">
             <div className="absolute left-1/4 top-1/2 max-w-lg -translate-x-1/2 -translate-y-1/2 transform rounded-md p-8 text-white ">
               {/* <div className="title mb-4 text-3xl font-bold">Slide 1</div> */}
-              <h3 className=" mb-2 text-xl font-semibold">
+              <h3 className=" mb-2 hidden text-xl font-semibold md:block lg:block">
                 Revolutionizing Practice Efficiency
               </h3>
-              <h2 className="mb-4 text-3xl font-bold">
+              <h2 className="mb-4 hidden text-3xl font-bold md:block lg:block">
                 {" "}
                 Next-Gen Healthcare Management
               </h2>
 
-              <p className="text-lg text-white">
+              <p className="hidden text-lg text-white md:block lg:block">
                 Experience the future of healthcare management. Our innovative
                 HIMS platform optimizes practice operations, saving time and
                 resources.
               </p>
               <div>
                 <button
-                  className="mt-4 rounded bg-[#43d5cb] px-4 py-2 text-gray-200 hover:bg-blue-700"
+                  className="mt-4 hidden rounded bg-[#43d5cb] px-4 py-2 text-gray-200 hover:bg-blue-700 md:block lg:block"
                   onClick={handleClick2}
                 >
                   Learn More

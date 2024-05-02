@@ -23,7 +23,7 @@ const GridGallery: React.FC<GridGalleryProps> = ({ images }) => {
   return (
     <section id="gallery" className="py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className="grid grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-3">
           {images &&
             images.map((imageUrl, index) => (
               <VisibilitySensor
