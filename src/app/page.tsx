@@ -27,7 +27,7 @@ export default function Home() {
       <Slider />
       <Features />
       <Video />
-      <Brands title="Our Clients" />
+      {/* <Brands title="Our Clients" /> */}
       <Technologies />
       {/* <AboutSectionOne /> */}
       {/* <AboutSectionTwo /> */}

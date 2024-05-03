@@ -14,15 +14,15 @@ const Slider = () => {
     window.location.href = "/hims";
   };
   const handleClick1 = () => {
-    window.location.href = "/hims";
+    window.location.href = "/homecare";
   };
   const handleClick2 = () => {
-    window.location.href = "/hims";
+    window.location.href = "/telemedicine";
   };
   return (
     <section
       id="home"
-      className="relative z-10 overflow-hidden bg-white pb-0 pt-[80px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[0px] xl:pt-[0px] 2xl:pb-[200px] 2xl:pt-[210px]"
+      className="relative z-10 overflow-hidden bg-white pb-0 pt-[80px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[0px] xl:pt-[90px] 2xl:pb-[200px] 2xl:pt-[210px]"
     >
       <div className="swiper h-full w-full">
         <Swiper
@@ -59,7 +59,7 @@ const Slider = () => {
           <SwiperSlide className="relative">
             <div className="absolute left-1/4 top-1/2 max-w-lg -translate-x-1/2 -translate-y-1/2 transform rounded-md p-8 text-white ">
               {/* <div className="title mb-4 text-3xl font-bold">Slide 1</div> */}
-              <h3 className=" mb-2 hidden text-xl font-semibold md:block lg:block">
+              <h3 className=" mb-2 hidden text-2xl font-semibold text-black md:block lg:block">
                 Empowering HIMS
               </h3>
               <h3 className=" lg:blockmd:leading-tight mb-1 hidden text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:block md:text-5xl">
@@ -101,7 +101,7 @@ const Slider = () => {
               </p>
               <div>
                 <button
-                  className="mt-4 hidden rounded bg-[#43d5cb] px-4 py-2 text-gray-200 hover:bg-blue-700 md:block lg:block"
+                  className="mt-4 hidden rounded bg-[#43d5cb] px-4 py-2 text-white hover:bg-blue-700 md:block lg:block"
                   onClick={handleClick}
                 >
                   Learn More
@@ -109,7 +109,7 @@ const Slider = () => {
               </div>
             </div>
             <Image
-              src="/images/slider/7.png"
+              src="/images/slider/1.png"
               alt=""
               width={1600}
               height={500}
@@ -119,21 +119,21 @@ const Slider = () => {
           <SwiperSlide className="relative">
             <div className="absolute left-1/4 top-1/2 max-w-lg -translate-x-1/2 -translate-y-1/2 transform rounded-md p-8 text-white ">
               {/* <div className="title mb-4 text-3xl font-bold">Slide 1</div> */}
-              <h3 className=" mb-2 hidden text-xl font-semibold md:block lg:block">
+              <h3 className=" mb-2 hidden text-2xl font-semibold text-black md:block lg:block">
                 Advanced HIMS Technology
               </h3>
-              <h2 className="mb-4 hidden font-bold md:block lg:block lg:text-3xl">
+              <h2 className="mb-4 hidden font-bold text-black md:block lg:block lg:text-3xl">
                 {" "}
                 Innovative Solutions for Healthcare Providers
               </h2>
 
-              <p className="hidden text-lg text-white md:block lg:block">
+              <p className="hidden text-lg text-black md:block lg:block">
                 Maximize efficiency with our HIMS technology. Intuitive
                 interfaces and robust features keep you ahead in healthcare.
               </p>
               <div>
                 <button
-                  className="mt-4 hidden rounded bg-[#43d5cb] px-4 py-2 text-gray-200 hover:bg-blue-700 md:block lg:block"
+                  className="mt-4 hidden rounded bg-[#43d5cb] px-4 py-2 text-white hover:bg-blue-700 md:block lg:block"
                   onClick={handleClick1}
                 >
                   Learn More
@@ -141,7 +141,7 @@ const Slider = () => {
               </div>
             </div>
             <Image
-              src="/images/slider/8.png"
+              src="/images/slider/2.png"
               alt=""
               width={1600}
               height={500}
@@ -149,24 +149,24 @@ const Slider = () => {
             ></Image>
           </SwiperSlide>
           <SwiperSlide className="relative">
-            <div className="absolute left-1/4 top-1/2 max-w-lg -translate-x-1/2 -translate-y-1/2 transform rounded-md p-8 text-white ">
+            <div className="absolute right-1 top-1/2 max-w-lg -translate-x-1 -translate-y-1/2 transform rounded-md p-8 text-white ">
               {/* <div className="title mb-4 text-3xl font-bold">Slide 1</div> */}
-              <h3 className=" mb-2 hidden text-xl font-semibold md:block lg:block">
+              <h3 className=" mb-2 hidden text-2xl font-bold text-black md:block lg:block">
                 Revolutionizing Practice Efficiency
               </h3>
-              <h2 className="mb-4 hidden text-3xl font-bold md:block lg:block">
+              <h2 className="mb-4 hidden text-3xl font-bold text-black md:block lg:block">
                 {" "}
                 Next-Gen Healthcare Management
               </h2>
 
-              <p className="hidden text-lg text-white md:block lg:block">
+              <p className="hidden text-lg text-black md:block lg:block">
                 Experience the future of healthcare management. Our innovative
                 HIMS platform optimizes practice operations, saving time and
                 resources.
               </p>
               <div>
                 <button
-                  className="mt-4 hidden rounded bg-[#43d5cb] px-4 py-2 text-gray-200 hover:bg-blue-700 md:block lg:block"
+                  className="mt-4 hidden rounded bg-[#43d5cb] px-4 py-2 text-white hover:bg-blue-700 md:block lg:block"
                   onClick={handleClick2}
                 >
                   Learn More
@@ -174,7 +174,7 @@ const Slider = () => {
               </div>
             </div>
             <Image
-              src="/images/slider/9.png"
+              src="/images/slider/11.png"
               alt=""
               width={1600}
               height={500}

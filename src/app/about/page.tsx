@@ -24,7 +24,7 @@ const AboutPage = () => {
       <AboutSectionTwo />
       <Team />
       <TechnicalSkill />
-      <Brands title="Testomonial" />
+      {/* <Brands title="Testomonial" /> */}
       {/* <FAQ /> */}
     </>
   );
