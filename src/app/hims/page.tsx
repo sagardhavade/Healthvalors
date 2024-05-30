@@ -6,6 +6,8 @@ import FAQ from "@/components/Product/HimsFaq";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import dynamic from "next/dynamic";
+const NoSSR = dynamic(() => import("@/components/Hims/index"), { ssr: false });
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -24,6 +26,7 @@ const Hims = () => {
   useEffect(() => {
     AOS.init({ duration: 1200 });
   });
+
   return (
     <>
       <Breadcrumb
@@ -59,41 +62,7 @@ const Hims = () => {
                     HMIS
                   </h2>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    A Hospital Management Information System (HMIS) is an
-                    element of health informatics that focuses mainly on the
-                    administrational needs of hospitals. In many
-                    implementations, a HIS is a comprehensive, integrated
-                    information system designed to manage all the aspects of a
-                    hospital’s operation, such as medical, administrative,
-                    financial, and legal issues and the corresponding processing
-                    of services.
-                    <br />
-                    One of the most important issues is health services.
-                    Hospitals provide a medical assistance to people.
-                    <br />
-                    Hospital Management Information Systems <b>(HMIS)</b>{" "}
-                    provide a common source of information about a patient’s
-                    health history. The system has to keep data in secure place
-                    and controls who can reach the data in certain
-                    circumstances. These systems enhance the ability of health
-                    care professionals to coordinate care by providing a
-                    patient’s health information and visit history at the place
-                    and time that it is needed. Patient’s laboratory test
-                    information also visual results such as X-ray may reachable
-                    from professionals. <b>HMIS</b> provide internal and
-                    external communication among health care providers.
-                    <br />
-                    The <b>HMIS</b> may control organizations, which is Hospital
-                    in these case, official documentations, financial situation
-                    reports, personal data, utilities and stock amounts, also
-                    keeps in secure place patients information, patients medical
-                    history, prescriptions, operations and laboratory test
-                    results.
-                    <br />
-                    The <b>HMIS</b> may protect organizations, handwriting
-                    error, overstock problems, conflict of scheduling personnel,
-                    and official documentation errors like tax preparations
-                    errors.
+                    <NoSSR />
                   </p>
                 </div>
               </div>

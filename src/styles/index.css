@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +8,9 @@
 
 @layer base {
   body {
-    font-family: "Inter", sans-serif;
+    /* font-family: "Inter", sans-serif; */
+    /* font-family: "Raleway", sans-serif; */
+    font-family: "Cinzel", serif;
   }
 }
 
@@ -30,4 +34,14 @@
   input#checkboxLabel:checked ~ .box span {
     @apply opacity-100;
   }
+}
+/* styles.css or a global CSS file */
+.custom-underline {
+  background-color: #3094d6;
+  content: "";
+  display: block;
+  height: 3px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 10rem;
 }

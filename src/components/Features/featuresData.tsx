@@ -26,7 +26,7 @@ const featuresData: Feature[] = [
       "HMIS simplifies hospital management and improves patient care through secure, integrated systems.",
   },
   {
-    id: 1,
+    id: 2,
     icon: (
       // <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
       //   <path
@@ -51,7 +51,7 @@ const featuresData: Feature[] = [
       "Homecare Solutions simplifies healthcare management, offering secure, integrated systems that improve patient care and streamline operations.",
   },
   {
-    id: 1,
+    id: 3,
     icon: (
       // <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
       //   <path
@@ -75,7 +75,7 @@ const featuresData: Feature[] = [
       "Telemedicine expands healthcare access by allowing remote evaluation, diagnosis, and treatment, bridging the gap for patients unable to travel to clinics or hospitals.",
   },
   {
-    id: 1,
+    id: 4,
     icon: (
       // <svg width="40" height="42" viewBox="0 0 40 42" className="fill-current">
       //   <path
