@@ -51,14 +51,14 @@ const AboutSectionTwo = () => {
                   Why Healthvalors
                 </h2>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Healthvalors Technologies has capabilities to work in multiple
-                  technologies for its clients across the globe to establish its
-                  business. With apex experience and expertise in different
-                  technology domains, we ensure quality products and solutions
-                  for our valued clients. We focus totally on the needs and
-                  requirements of our clients. Our army is always on their toes
-                  for latest technology and are continuously in process of self
-                  up gradation.Our work speaks for us.
+                  Healthvalors Technologies has the capability to work with
+                  multiple technologies to establish its business for clients
+                  across the globe. With apex experience and expertise in
+                  different technology domains, we ensure quality products and
+                  solutions for our valued clients. We focus totally on the
+                  needs and requirements of our clients. Our army is always on
+                  the lookout for the latest technology and is constantly
+                  upgrading itself. Our work speaks for us.
                 </p>
               </div>
               <div

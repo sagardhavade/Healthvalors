@@ -37,7 +37,7 @@ const Features = () => {
               <p className="mb-6 mr-4  text-base !leading-relaxed text-body-color md:text-lg">
                 Digital service platforms are transforming healthcare by
                 streamlining operations and enhancing patient care. These
-                platforms utilize technologies like telemedicine and electronic
+                platforms utilise technologies like telemedicine and electronic
                 health records to provide more efficient and accessible
                 services, improving patient outcomes and satisfaction.
               </p>

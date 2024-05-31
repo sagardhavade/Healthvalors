@@ -32,7 +32,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Empowering Healthcare Through Technology"
-                paragraph="Healthvalors Technologies is an offshore software development company located in Ahmedabad, Gujarat, India. Since our launch in 2003, we have enjoyed continuous year on year growth and have successfully partnered with renowned organizations to deliver real results on time and on budget. The company in last more than 10 years has delivered many potential, viable and scalable solutions to many trusted clients across India."
+                paragraph="Healthvalors Technologies is an offshore software development company located in Ahmedabad, Gujarat, India. Since our inception in 2003, we have enjoyed continuous year-on-year growth and have successfully partnered with renowned organisations to deliver real results on time and on budget. In more than 10 years, the company has delivered many potential, viable, and scalable solutions to many trusted clients across India."
                 paragraph1=""
                 paragraph2=""
                 mb="44px"
@@ -89,10 +89,9 @@ const AboutSectionOne = () => {
           <div className="w-full px-4 lg:w-1/2">
             <SectionTitle
               title=""
-              paragraph="Our area of expertise lies specifically in the HMIS. We are trusted provider of solutions to the Hospital Sector; As a Hospital/Doctor your top priority to deliver high quality patient care never changes. You need an IT partner who understands your issues and proposes solutions that support the business side of healthcare. That partner is Healthvalors Technology."
-              paragraph1="The solutions we offer can improve the performance and stability of your workforce, resulting in measurable improvement in the quality of patient care, as well as tangible financial benefits.
-              Our clients are confident that we will deliver on our promises every time, which is why many of our clients choose Healthvalors Technology as their preferred partner for all of their software requirements."
-              paragraph2="We giving our clients the assurance that all our products and services are delivered at the highest level. Through our low cost, high quality and reliable offshore software services, we serve our clients giving them value for money and thus client satisfaction."
+              paragraph="Our area of expertise lies specifically in the HMIS. We are trusted providers of solutions to the hospital sector. As a hospital or doctor, your top priority to deliver high-quality patient care never changes. You need an IT partner who understands your issues and proposes solutions that support the business side of healthcare. That partner is Healthvalors Technology."
+              paragraph1="The solutions we offer can improve your workforce's performance and stability, resulting in measurable improvements in patient care quality as well as tangible financial benefits. Our clients are confident that we will deliver on our promises every time, which is why many of them choose Healthvalors Technology as their preferred partner for all of their software requirements."
+              paragraph2="We guarantee the highest quality delivery of all our products and services to our clients. We serve our clients through our low-cost, high-quality, and reliable offshore software services, giving them value for money and ultimately client satisfaction."
               mb="44px"
             />
           </div>

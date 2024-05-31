@@ -27,8 +27,7 @@ const Infrastructure = () => {
     <>
       <Breadcrumb
         pageName="Infrastructure"
-        description="At Healthvalors Technologies, we understand the importance of robust infrastructure to support our software development and delivery processes. Our state-of-the-art infrastructure is designed to meet the highest standards of reliability, security, and scalability.
-"
+        description="At Healthvalors Technologies, we understand the importance of robust infrastructure to support our software development and delivery processes. We design our state-of-the-art infrastructure to meet the highest standards of reliability, security, and scalability."
       />
       <section id="Infrastructure" className="lg:pt-22 pt-10 md:pt-12">
         <div className="container">
@@ -39,9 +38,9 @@ const Infrastructure = () => {
             <div className="flex w-full flex-col px-4 lg:flex-row">
               <SectionTitle
                 title="We Believe in Progress"
-                paragraph="Started with just 3 persons in a single room office Healthvalors Technologies today has 50+ numbers of employees. With increase in employees requirement of infrastructure increased and we shifted to a bigger premises for better infrastructure and facilities."
-                paragraph1="This workplace is spread in several thousands Sq. Feet of carpet area. Healthvalors Technologies has also offices in Johannesburg for its business in South African Region. All the work places are as per business requirements."
-                paragraph2="We certainly provide comfortable and refreshing working environment to our employees for creating a masterpiece of work as an output."
+                paragraph="Started with just 3 people in a single-room office, Healthvalors Technologies today has 50+ employees. With the increase in employees, the requirement for infrastructure increased, and we shifted to bigger premises for better infrastructure and facilities."
+                paragraph1="The office area spans several thousand square feet. Healthvalors Technologies also has offices in Johannesburg for its business in the South African region. All the work places are as per business requirements."
+                paragraph2="We certainly provide a comfortable and refreshing working environment for our employees, enabling them to create masterpieces as their output."
               />
               <div className="w-full px-4 lg:w-full" data-aos="fade-right">
                 <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
@@ -93,17 +92,16 @@ const Infrastructure = () => {
                     Security of Projects
                   </h2>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Every project that comes to Healthvalors Technologies
-                    becomes the top priority in terms of security. With
-                    continuous monitoring of the projects, with flawless project
-                    management techniques we control and manage the tasks
-                    assigned to each employ of the company. The employees
-                    working in the company have agreed and signed the Non
-                    Disclosure Agreement which binds the employees not to
-                    disclose the technology or any information related to
-                    projects, clients, etc. outside the company. Every person
-                    working with Healthvalors Technologies follows the code of
-                    ethics to protect the privacy and work on allotted projects
+                    Every project at Healthvalors Technologies becomes a top
+                    priority in terms of security. With continuous monitoring of
+                    the projects and flawless project management techniques, we
+                    control and manage the tasks assigned to each employee of
+                    the company. The employees working for the company have
+                    agreed and signed the Non-Disclosure Agreement, which
+                    obligates them not to disclose technology or any information
+                    related to projects, clients, etc. outside the company.
+                    Every employee at Healthvalors Technologies follows the code
+                    of ethics to protect privacy and works on assigned projects
                     with dedication.
                   </p>
                 </div>
@@ -139,7 +137,7 @@ const Infrastructure = () => {
             <div className="flex w-full flex-col px-4 lg:flex-row">
               <SectionTitle
                 title="Working Environment"
-                paragraph="We provide the best working environment so as to have best output from every brain we hire. We provide all the facilities to make the employees cheerful without compromising the quality of work. At Healthvalors Technologies employees enjoy to work where they build their professional profile while exploring new technologies. This, in turn, results in retention of employees strengthening company’s productivity and expertise. Due to dedicated, committed, efficient staff and state of art working environment we are getting new clients and continuously get repeated business from old clients."
+                paragraph="We provide the best working environment to get the best output from every brain we hire. We provide all the necessary facilities to ensure employee satisfaction without compromising the quality of work. At Healthvalors Technologies, employees take pleasure in their work as they develop their professional skills and explore new technologies. This, in turn, results in employee retention, strengthening the company's productivity and expertise. Due to our dedicated, committed, efficient staff and state-of-the-art working environment, we are getting new clients and continuously getting repeat business from old clients."
                 paragraph1=""
                 paragraph2=""
               />
@@ -228,7 +226,7 @@ const Infrastructure = () => {
             <div className="flex w-full flex-col px-4 lg:flex-row">
               <SectionTitle
                 title="Customer Support and Correspondence"
-                paragraph="The backbone of any online business especially outsourcing is online client support and access to track the progress. Healthvalors Technologies focuses on providing dedicated client support through its online support tools to have better end-product that is foolproof and fully customized according to client’s need. Having a world-class infrastructure and adequate workforce, the company enjoys being a preferred choice among small, medium and large sized industries across the world for developing web and mobile apps."
+                paragraph="The backbone of any online business, especially outsourcing, is online client support and access to track progress. Healthvalors Technologies focuses on providing dedicated client support through its online support tools to have a better end-product that is foolproof and fully customised according to the client's needs. With a world-class infrastructure and an adequate workforce, the company enjoys being a preferred choice for developing web and mobile apps among small, medium, and large industries across the world."
                 paragraph1=""
                 paragraph2=""
               />

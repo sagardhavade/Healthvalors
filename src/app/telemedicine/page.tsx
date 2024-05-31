@@ -58,47 +58,47 @@ const Telemedicine = () => {
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                     <b>Telemedicine (mostly known as telehealth or telecare)</b>{" "}
                     brings health care access to rural locations by enabling
-                    practitioners to evaluate, diagnose & treat patients
+                    practitioners to evaluate, diagnose, and treat patients
                     remotely using the latest telecommunications technology.
                     Telemedicine allows patients to receive expert medical care
                     without having to travel.
                     <br />
                     Many patients find it difficult to travel to clinics,
-                    hospitals or doctor’s offices for any number of reasons.
+                    hospitals, or doctor’s offices for any number of reasons.
                     Telemedicine can be a great option for patients with unique
-                    challenges or in situations making it difficult to travel to
-                    receive traditional care.
+                    challenges or in situations where it is difficult to travel
+                    to receive traditional care.
                   </p>
                   <h2 className="mb-4  text-center text-2xl font-bold !leading-tight text-black dark:text-white sm:text-2xl md:text-[35px]">
                     What are the Benefits of Telemedicine ?
                   </h2>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    <b> Improved Access </b>– For over 40 years, telemedicine
-                    has been used to bring healthcare services to patients in
-                    distant locations. Not only does telemedicine improve access
-                    to patients but it also allows physicians and health
-                    facilities to expand their reach, beyond their own offices.
-                    Given the provider shortages throughout the world–in both
-                    rural and urban areas–telemedicine has a unique capacity to
+                    <b> Improved Access </b>– Over 40 years have seen the use of
+                    telemedicine to provide healthcare services to patients in
+                    remote locations. Not only does telemedicine improve access
+                    to patients, but it also allows physicians and health
+                    facilities to expand their reach beyond their own offices.
+                    Given the provider shortages throughout the world—in both
+                    rural and urban areas—telemedicine has a unique capacity to
                     increase service to millions of new patients.
                     <br />
-                    <b>Cost Efficiencies</b> – Reducing or containing the cost
-                    of healthcare is one of the most important reasons for
-                    funding and adopting telehealth technologies. Telemedicine
-                    has been shown to reduce the cost of healthcare and increase
-                    efficiency through better management of chronic diseases,
-                    shared health professional staffing, reduced travel times,
-                    and fewer or shorter hospital stays.
+                    <b>Cost Efficiencies</b> – : Reducing or containing
+                    healthcare costs is one of the most important reasons for
+                    funding and adopting telehealth technologies. Research
+                    demonstrates that telemedicine can lower healthcare costs
+                    and boost efficiency by improving chronic disease
+                    management, sharing health professional staffing, reducing
+                    travel times, and reducing or shortening hospital stays.
                     <br />
                     <b>Improved Quality</b> – Studies have consistently shown
                     that the quality of healthcare services delivered via
-                    telemedicine are as good those given in traditional
+                    telemedicine is as good as those given in traditional
                     in-person consultations.
                     <br />
                     <b> Patient Demand </b>– Consumers want telemedicine. The
                     greatest impact of telemedicine is on the patient, their
-                    family and their community. Using telemedicine technologies
-                    reduces travel time and related stresses for the patient.
+                    family, and their community. Using telemedicine technologies
+                    reduces the patient's travel time and associated stress.
                   </p>
                 </div>
               </div>

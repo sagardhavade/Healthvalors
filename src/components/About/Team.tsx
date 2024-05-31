@@ -32,16 +32,16 @@ const Team: React.FC = () => {
                   Team
                 </h2>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  An overwhelming Extensive Team of exteamperienced
-                  professionals strives hard to provide outstanding applications
-                  in web solutions. Keeping in view of all clients requirements
-                  and integrating our expertise of new web methodologies, we
-                  incorporate innovative and enhanced technical features to
-                  deliver enriched functionality. <br />
-                  Dedicated full time experienced IT professional team is here
-                  to enhance your business solutions within the time frame in
-                  view of commercial considerations that helps you achieve your
-                  goals and improve your return on investment (ROI).
+                  An overwhelming, extensive team of experienced professionals
+                  strives hard to provide outstanding web application solutions.
+                  Keeping in mind all client requirements and integrating our
+                  expertise in new web methodologies, we incorporate innovative
+                  and enhanced technical features to deliver enriched
+                  functionality. <br />A dedicated, full-time, experienced IT
+                  professional team is here to enhance your business solutions
+                  within the time frame in light of commercial considerations
+                  that help you achieve your goals and improve your return on
+                  investment (ROI).
                 </p>
               </div>
             </div>

@@ -56,7 +56,7 @@ const RuralHealth = () => {
                     What Is Rural Healthcare?
                   </h2>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    In medicine, rural health or rural medicine is the
+                    In medicine, rural health, or rural medicine, is the
                     interdisciplinary study of health and health care delivery
                     in rural environments. The concept of rural health
                     incorporates many fields, including geography, midwifery,
@@ -64,9 +64,9 @@ const RuralHealth = () => {
                     telemedicine.
                     <br />
                     <br />
-                    Research shows that the healthcare needs of individuals
-                    living in rural areas are different from those in urban
-                    areas, and rural areas often suffer from a lack of access to
+                    Research shows that individuals living in rural areas have
+                    different healthcare needs than those in urban areas, and
+                    rural areas often suffer from a lack of access to
                     healthcare.
                   </p>
                 </div>
