@@ -25,7 +25,7 @@ const Telemedicine = () => {
     <>
       <Breadcrumb
         pageName="Telemedicine Solution"
-        description="Transforming Healthcare Delivery with Telemedicine. Connect Patients and Providers Virtually Anywhere, Anytime with Healthvalors Technologies' Telemedicine Solutions."
+        description="Transforming Healthcare Delivery with Telemedicine. Connect Patients and Providers Virtually Anywhere, Anytime with Healthvalors Technologies Telemedicine Solutions."
       />
       <section className="py-16 md:py-20 lg:py-28">
         <div className="container">
@@ -64,10 +64,10 @@ const Telemedicine = () => {
                     without having to travel.
                     <br />
                     Many patients find it difficult to travel to clinics,
-                    hospitals, or doctor’s offices for any number of reasons.
-                    Telemedicine can be a great option for patients with unique
-                    challenges or in situations where it is difficult to travel
-                    to receive traditional care.
+                    hospitals, or doctor&apos;s offices for any number of
+                    reasons. Telemedicine can be a great option for patients
+                    with unique challenges or in situations where it is
+                    difficult to travel to receive traditional care.
                   </p>
                   <h2 className="mb-4  text-center text-2xl font-bold !leading-tight text-black dark:text-white sm:text-2xl md:text-[35px]">
                     What are the Benefits of Telemedicine ?
@@ -98,7 +98,8 @@ const Telemedicine = () => {
                     <b> Patient Demand </b>– Consumers want telemedicine. The
                     greatest impact of telemedicine is on the patient, their
                     family, and their community. Using telemedicine technologies
-                    reduces the patient's travel time and associated stress.
+                    reduces the patient&apos;s travel time and associated
+                    stress.
                   </p>
                 </div>
               </div>
