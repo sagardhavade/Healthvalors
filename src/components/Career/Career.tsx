@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,16 +26,16 @@ const Career = () => {
               className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <Image
+              <img
                 src="/images/career/33.png"
                 alt="about image"
-                fill
+                // fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
-              <Image
+              <img
                 src="/images/career/32.png"
                 alt="about image"
-                fill
+                // fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>

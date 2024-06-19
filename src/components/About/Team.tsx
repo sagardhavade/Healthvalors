@@ -52,16 +52,16 @@ const Team: React.FC = () => {
               data-wow-delay=".15s"
               data-aos="fade-right"
             >
-              <Image
+              <img
                 src="/images/about/team.png"
                 alt="about image"
-                fill
+                // fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
-              <Image
+              <img
                 src="/images/about/team-dark.png"
                 alt="about image"
-                fill
+                // fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>

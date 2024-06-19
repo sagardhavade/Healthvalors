@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import FAQ from "@/components/Product/HimsFaq";
 
@@ -41,16 +41,16 @@ const Hims = () => {
                 className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
                 data-wow-delay=".15s"
               >
-                <Image
+                <img
                   src="/images/hims/27.png"
                   alt="about image"
-                  fill
+                  // fill
                   className="drop-shadow-three dark:hidden dark:drop-shadow-none"
                 />
-                <Image
+                <img
                   src="/images/hims/26.png"
                   alt="about image"
-                  fill
+                  // fill
                   className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
                 />
               </div>

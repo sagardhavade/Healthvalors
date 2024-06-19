@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import VisibilitySensor from "react-visibility-sensor";
-import Image from "next/image";
+// import Image from "next/image";
 interface GridGalleryProps {
   images: string[];
 }
@@ -66,7 +66,8 @@ const GridGalleryCard: React.FC<GridGalleryCardProps> = ({
         </div>
       </div>
       {/* <img src={imageUrl} alt="" /> */}
-      <Image src={imageUrl} alt="" width={500} height={500} priority={true} />
+      {/* <Image src={imageUrl} alt="" width={500} height={500} priority={true} /> */}
+      <img src={imageUrl} alt="" width={500} height={500} />
     </div>
   );
 };

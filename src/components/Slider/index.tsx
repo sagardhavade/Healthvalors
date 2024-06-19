@@ -6,7 +6,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import Image from "next/image";
+// import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import Hims from "@/app/hims/page";
 const Slider = () => {
@@ -60,7 +60,7 @@ const Slider = () => {
             <div className="absolute left-1/4 top-1/2 max-w-lg -translate-x-1/2 -translate-y-1/2 transform rounded-md p-8 text-white ">
               {/* <div className="title mb-4 text-3xl font-bold">Slide 1</div> */}
               <h3 className=" mb-2 hidden text-2xl font-semibold text-black md:block lg:block">
-                Empowering HIMS
+                Efficiently manage your hospital operations
               </h3>
               <h3 className=" lg:blockmd:leading-tight mb-1 hidden text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:block md:text-5xl">
                 {/* Transforming Healthcare with Technology */}
@@ -73,7 +73,7 @@ const Slider = () => {
                     // 1000,
                     // "Transforming Healthcare with Technology revolutionizes medical practices.",
                     // 1000,
-                    " Health Software",
+                    "Welcome to Healthvalors",
                     1000,
                   ]}
                   wrapper="span"
@@ -95,8 +95,8 @@ const Slider = () => {
                 </p>
               </div> */}
               <p className="hidden text-lg text-white md:block lg:block">
-                Revolutionizing healthcare management. Our software solutions
-                streamline processes, enhance patient care, and optimize
+                Discover our comprehensive suite of tools designed to streamline
+                administrative tasks, improve patient care, and enhance overall
                 efficiency.
               </p>
               <div>
@@ -108,13 +108,20 @@ const Slider = () => {
                 </button>
               </div>
             </div>
-            <Image
+            {/* <Image
               src="/images/slider/1.png"
               alt=""
               width={1600}
               height={500}
               className="h-full w-full rounded-md object-cover"
-            ></Image>
+            ></Image> */}
+            <img
+              src="/images/slider/1.png"
+              alt=""
+              width={1600}
+              height={500}
+              className="h-full w-full rounded-md object-cover"
+            ></img>
           </SwiperSlide>
           <SwiperSlide className="relative">
             <div className="absolute left-1/4 top-1/2 max-w-lg -translate-x-1/2 -translate-y-1/2 transform rounded-md p-8 text-white ">
@@ -140,13 +147,13 @@ const Slider = () => {
                 </button>
               </div>
             </div>
-            <Image
+            <img
               src="/images/slider/2.png"
               alt=""
               width={1600}
               height={500}
               className="h-full w-full rounded-md object-cover"
-            ></Image>
+            ></img>
           </SwiperSlide>
           <SwiperSlide className="relative">
             <div className="absolute right-1 top-1/2 max-w-lg -translate-x-1 -translate-y-1/2 transform rounded-md p-8 text-white ">
@@ -173,13 +180,13 @@ const Slider = () => {
                 </button>
               </div>
             </div>
-            <Image
+            <img
               src="/images/slider/11.png"
               alt=""
               width={1600}
               height={500}
               className="h-full w-full rounded-md object-cover"
-            ></Image>
+            ></img>
           </SwiperSlide>
           {/* <SwiperSlide className="flex items-center justify-center bg-white text-center text-lg">
             <Image

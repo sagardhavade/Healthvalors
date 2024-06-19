@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -30,16 +30,16 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
               data-aos="fade-left"
             >
-              <Image
+              <img
                 src="/images/about/8.png"
                 alt="about image"
-                fill
+                // fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
-              <Image
+              <img
                 src="/images/about/9.png"
                 alt="about image"
-                fill
+                // fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>

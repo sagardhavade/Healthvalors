@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import SectionTitle from "@/components/Common/SectionTitle";
 import AOS from "aos";
@@ -44,16 +44,16 @@ const Infrastructure = () => {
               />
               <div className="w-full px-4 lg:w-full" data-aos="fade-right">
                 <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                  <Image
+                  <img
                     src="/images/infrastructure/15.png"
                     alt=""
-                    fill
+                    // fill
                     className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                   />
-                  <Image
+                  <img
                     src="/images/infrastructure/14.png"
                     alt="about image"
-                    fill
+                    // fill
                     className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
                   />
                 </div>
@@ -71,16 +71,16 @@ const Infrastructure = () => {
                 data-wow-delay=".15s"
                 data-aos="fade-left"
               >
-                <Image
+                <img
                   src="/images/infrastructure/17.png"
                   alt="about image"
-                  fill
+                  // fill
                   className="drop-shadow-three dark:hidden dark:drop-shadow-none"
                 />
-                <Image
+                <img
                   src="/images/infrastructure/16.png"
                   alt="about image"
-                  fill
+                  // fill
                   className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
                 />
               </div>
@@ -143,16 +143,16 @@ const Infrastructure = () => {
               />
               <div className="w-full px-4 lg:w-full" data-aos="fade-right">
                 <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                  <Image
+                  <img
                     src="/images/infrastructure/18.png"
                     alt=""
-                    fill
+                    // fill
                     className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                   />
-                  <Image
+                  <img
                     src="/images/infrastructure/19.png"
                     alt="about image"
-                    fill
+                    // fill
                     className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
                   />
                 </div>
@@ -169,16 +169,16 @@ const Infrastructure = () => {
                 className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
                 data-wow-delay=".15s"
               >
-                <Image
+                <img
                   src="/images/infrastructure/21.png"
                   alt="about image"
-                  fill
+                  // fill
                   className="drop-shadow-three dark:hidden dark:drop-shadow-none"
                 />
-                <Image
+                <img
                   src="/images/infrastructure/20.png"
                   alt="about image"
-                  fill
+                  // fill
                   className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
                 />
               </div>
@@ -232,16 +232,16 @@ const Infrastructure = () => {
               />
               <div className="w-full px-4 lg:w-full" data-aos="fade-left">
                 <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                  <Image
+                  <img
                     src="/images/infrastructure/23.png"
                     alt=""
-                    fill
+                    // fill
                     className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                   />
-                  <Image
+                  <img
                     src="/images/infrastructure/22.png"
                     alt="about image"
-                    fill
+                    // fill
                     className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
                   />
                 </div>
@@ -258,16 +258,16 @@ const Infrastructure = () => {
                 className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
                 data-wow-delay=".15s"
               >
-                <Image
+                <img
                   src="/images/infrastructure/24.png"
                   alt="about image"
-                  fill
+                  // fill
                   className="drop-shadow-three dark:hidden dark:drop-shadow-none"
                 />
-                <Image
+                <img
                   src="/images/infrastructure/25.png"
                   alt="about image"
-                  fill
+                  // fill
                   className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
                 />
               </div>

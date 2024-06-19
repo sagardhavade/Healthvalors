@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -67,16 +67,16 @@ const AboutSectionOne = () => {
                 className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0 "
                 data-aos="fade-right"
               >
-                <Image
+                <img
                   src="/images/about/about-image.svg"
                   alt="about-image"
-                  fill
+                  // fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
-                <Image
+                <img
                   src="/images/about/about-image-dark.svg"
                   alt="about-image"
-                  fill
+                  // fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
@@ -101,16 +101,16 @@ const AboutSectionOne = () => {
               className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
               data-aos="fade-right"
             >
-              <Image
+              <img
                 src="/images/about/7.png"
                 alt="about-image"
-                fill
+                // fill
                 className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
               />
-              <Image
+              <img
                 src="/images/about/6.png"
                 alt="about-image"
-                fill
+                // fill
                 className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
               />
             </div>

@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -30,16 +30,16 @@ const TechnicalSkill = () => {
               data-wow-delay=".15s"
               data-aos="fade-right"
             >
-              <Image
+              <img
                 src="/images/about/skill.png"
                 alt="about image"
-                fill
+                // fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
-              <Image
+              <img
                 src="/images/about/skill-dark.png"
                 alt="about image"
-                fill
+                // fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>

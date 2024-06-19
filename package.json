@@ -1,12 +1,11 @@
 {
-  "name": "startup-nextjs-template",
+  "name": "Healthvalors",
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "aos": "^2.3.4",

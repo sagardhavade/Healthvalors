@@ -1,12 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // basePath: "#",
   output: "export",
   // images: {
   //   loader: "custom",
   //   loaderFile: "./my-loader.ts",
   // },
   images: {
-    unoptimized: false,
+    unoptimized: true,
   },
   images: {
     domains: ["localhost"],
