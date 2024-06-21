@@ -46,7 +46,7 @@ const featuresData: Feature[] = [
         <path d="M490.91 244.15l-74.8-71.56V64a16 16 0 00-16-16h-48a16 16 0 00-16 16v32l-57.92-55.38C272.77 35.14 264.71 32 256 32c-8.68 0-16.72 3.14-22.14 8.63l-212.7 203.5c-6.22 6-7 15.87-1.34 22.37A16 16 0 0043 267.56L250.5 69.28a8 8 0 0111.06 0l207.52 198.28a16 16 0 0022.59-.44c6.14-6.36 5.63-16.86-.76-22.97z" />
       </svg>
     ),
-    title: "Homecare Solutions",
+    title: "Medical College Software",
     paragraph:
       "Homecare Solutions simplifies healthcare management, offering secure, integrated systems that improve patient care and streamline operations.",
   },
@@ -70,7 +70,7 @@ const featuresData: Feature[] = [
         <path d="M18 16h2v1a1 1 0 01-1 1H1a1 1 0 01-1-1v-1h2V4c0-1.1.9-2 2-2h12a2 2 0 012 2v12zM4 4v9h12V4H4zm4 11v1h4v-1H8z" />
       </svg>
     ),
-    title: "Telemedicine Solutions",
+    title: "IVF Care",
     paragraph:
       "Telemedicine expands healthcare access by allowing remote evaluation, diagnosis, and treatment, bridging the gap for patients unable to travel to clinics or hospitals.",
   },
@@ -94,10 +94,27 @@ const featuresData: Feature[] = [
         <path d="M19 14h-1.4v8H19v-8M6.44 22H5l2-8h1.44l-2 8M8.76 9.54V13H7V8.32l4.61-2.01c.43-.17.89-.18 1.35-.04s.83.42 1.1.83L15 8.58c.37.67.9 1.37 1.62 1.79.71.42 1.51.63 2.38.63v1.83c-1 0-2-.21-2.87-.63s-1.63-1.14-2.25-1.83l-.57 2.79L15.28 15v7H13.4v-5.5l-1.9-1.95L9.77 22H7.8l2.63-13.11-1.67.65M16 4c0 1.11-.89 2-2 2s-2-.89-2-2 .9-2 2-2 2 .9 2 2z" />
       </svg>
     ),
-    title: "Rural Health",
+    title: "Public Health",
     paragraph:
       "Rural healthcare focuses on addressing unique health challenges in less populated areas, integrating various disciplines to improve access and delivery of essential medical services.",
   },
+  // {
+  //   id: 5,
+  //   icon: (
+  //     <svg
+  //       viewBox="0 0 24 24"
+  //       fill="currentColor"
+  //       height="40"
+  //       width="40"
+  //       className="animate-bounce"
+  //     >
+  //       <path d="M19 14h-1.4v8H19v-8M6.44 22H5l2-8h1.44l-2 8M8.76 9.54V13H7V8.32l4.61-2.01c.43-.17.89-.18 1.35-.04s.83.42 1.1.83L15 8.58c.37.67.9 1.37 1.62 1.79.71.42 1.51.63 2.38.63v1.83c-1 0-2-.21-2.87-.63s-1.63-1.14-2.25-1.83l-.57 2.79L15.28 15v7H13.4v-5.5l-1.9-1.95L9.77 22H7.8l2.63-13.11-1.67.65M16 4c0 1.11-.89 2-2 2s-2-.89-2-2 .9-2 2-2 2 .9 2 2z" />
+  //     </svg>
+  //   ),
+  //   title: "Medical College Software",
+  //   paragraph:
+  //     "Rural healthcare focuses on addressing unique health challenges in less populated areas, integrating various disciplines to improve access and delivery of essential medical services.",
+  // },
   // {
   //   id: 1,
   //   icon: (
