@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Technologies from "@/components/Technologies";
 import Features from "@/components/Features";
