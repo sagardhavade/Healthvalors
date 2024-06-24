@@ -24,8 +24,8 @@ const RuralHealth = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Rural Health Solution"
-        description="Bridging Gaps in Rural Healthcare. Delivering Tailored Solutions to Improve Access and Quality of Care in Underserved Communities with Healthvalors Technologies."
+        pageName="Medical College Software"
+        description="This application is compatible with all standard browsers like Internet Explorer, Firefox, Google Chrome, Safari and Opera. It is also compatible with all modern operating systems like, Windows, Apple MAC OS, or Any of Linux based operating systems."
       />
       <section className="py-16 md:py-20 lg:py-28">
         <div className="container">

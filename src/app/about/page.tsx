@@ -22,7 +22,7 @@ const AboutPage = () => {
       />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Team />
+      {/* <Team /> */}
       <TechnicalSkill />
       {/* <Brands title="Testomonial" /> */}
       {/* <FAQ /> */}

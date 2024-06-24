@@ -48,7 +48,7 @@ const menuData: Menu[] = [
       {
         id: 43,
         title: "Oncology",
-        path: "/telemedicine",
+        path: "/oncology",
         newTab: false,
       },
       {
@@ -60,7 +60,7 @@ const menuData: Menu[] = [
       {
         id: 45,
         title: "Dialysis Management",
-        path: "/ruralHealth",
+        path: "/dailysis",
         newTab: false,
       },
       {

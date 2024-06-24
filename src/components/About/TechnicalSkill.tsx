@@ -59,6 +59,7 @@ const TechnicalSkill = () => {
                 <div className="mx-[-12px] flex flex-wrap">
                   <h2 className="mb-4 text-center text-xl font-bold !leading-tight text-black dark:text-white sm:text-xl md:text-[20px]">
                     Client Server Technology
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   </h2>
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Microsoft Visual Studio – Is an integrated development environment (IDE) from Microsoft" />

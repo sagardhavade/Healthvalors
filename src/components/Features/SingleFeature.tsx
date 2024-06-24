@@ -8,10 +8,10 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
       featureUrl = `/hims/`;
       break;
     case 2:
-      featureUrl = `/homecare/`;
+      featureUrl = `/medicalClgSw/`;
       break;
     case 3:
-      featureUrl = `/telemedicine/`;
+      featureUrl = `/ivfCare/`;
       break;
     case 4:
       featureUrl = `/ruralHealth/`;
